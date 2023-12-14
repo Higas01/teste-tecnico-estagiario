@@ -1,0 +1,11 @@
+.container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn {
+    color: #000;
+    margin-right:10px;
+    cursor: pointer;
+    padding: 10px;
+}

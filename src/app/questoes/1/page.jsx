@@ -1,5 +1,8 @@
+import Btn from "@/app/components/btn/Btn";
+
 export default function Questao1() {
-  return (
+
+   return (
     <>
       <h1>Questão 1</h1>
       <p>
@@ -7,6 +10,7 @@ export default function Questao1() {
         como texto. Ao clicar no botão, um alerta deve ser disparado avisando
         que o botão foi clicado.
       </p>
+      <Btn/>
     </>
   );
 }

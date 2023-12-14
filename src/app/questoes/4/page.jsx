@@ -1,3 +1,5 @@
+import Product from "@/app/components/product/Product";
+
 const produtos = [
   {
     id: 1,
@@ -25,6 +27,7 @@ export default function Questao4() {
         objetos de produto e renderiza uma lista de produtos. Cada produto deve
         exibir seu nome e preço.
       </p>
+      <Product products={produtos}/>
     </>
   );
 }
