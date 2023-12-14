@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_product {
+    margin: 10px;
+    background-color: #fff;
+    color: #000;
+    width: 50%;
+    padding: 25px;
+}
