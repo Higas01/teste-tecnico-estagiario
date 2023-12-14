@@ -1,8 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .btn {
     margin-top: 50px;
-    border-radius: 60px;
-    padding: 59px;
-    font-size: 30px;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 15px;
     text-align: center;
     cursor: pointer;
+    border: none;
 }

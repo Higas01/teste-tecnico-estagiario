@@ -5,7 +5,15 @@
 
 .btn {
     color: #000;
-    margin-right:10px;
+    margin: 10px 0 0 10px;
     cursor: pointer;
     padding: 10px;
-}
+    outline: none; /* Remove o contorno padrão ao clicar */
+    border: none;
+    border-radius: 10%;
+    transition: 1s;
+  }
+
+  .btn:hover {
+    color: #fff
+  }

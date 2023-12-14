@@ -6,7 +6,9 @@ import styles from "./Btn.module.css";
 const Btn = () => {
 
   return (
-    <input type="button" className={styles.btn} value="Clique" onClick={() => alert("O botão foi clicado")} />
+    <div className={styles.container}>
+    <input type="button" className={styles.btn} value="Clique-me!" onClick={() => alert("O botão foi clicado")} />
+    </div>
   )
 }
 
